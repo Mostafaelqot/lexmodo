@@ -1,0 +1,51 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  
+      background-color: #e5e5e5;
+}
+
+.text_filed {
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 16px;
+}
+.text_input {
+  width: 100%;
+  outline: none;
+
+  font-size: 16px;
+  box-shadow: none;
+  border: none;
+}
+input ,select {
+  border: none;
+  outline: none;
+}
+input::placeholder {
+  color: black;
+}
+.rounded-lg {
+  border-radius: 5px !important;
+}
+.img-rounded {
+ border-radius: 5px 5px 0px 0px ;
+
+}
+.text-color{
+    color: #51C5FF;
+}
+.text-bold{
+    font-weight: 600 ;
+}
+@media only screen and (max-width: 540px) {
+.img-rounded {
+ border-radius: 5px 5px 5px 5px ;
+
+}
+}
